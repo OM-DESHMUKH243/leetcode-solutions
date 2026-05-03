@@ -6,7 +6,6 @@ public class AlternatingColors {
 
     public static int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges){
 
-        @SuppressWarnings("unchecked")
         List<int[]>[] graph = new ArrayList[n];
 
         for(int i = 0; i < n; i++){
